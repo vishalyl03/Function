@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+int sum(int num1,int num2);   // Function Declaration
+int main() {
+	int a,b;
+	scanf("%d %d",&a,&b);
+	
+	int result=sum(a,b);    // Function Call
+	
+	printf("%d",result);
+	
+	return 0;
+
+}
+// Function Definition
+
+int sum(int a,int b)
+{
+    int ans=a+b;
+    return ans;
+}
