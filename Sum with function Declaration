@@ -1,7 +1,8 @@
 #include <stdio.h>
 
+// Function Declaration
+int sum(int num1,int num2);  
 
-int sum(int num1,int num2);   // Function Declaration
 int main() {
 	int a,b;
 	scanf("%d %d",&a,&b);
